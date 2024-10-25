@@ -26,10 +26,10 @@ public class Heap<E> implements PriorityQueue<E> {
   private Comparator<E> comparator;
   
   /**
-   * TO DO:
    * Creates a heap whose elements are prioritized by the comparator.
    */
   public Heap(Comparator<E> comparator) {
+    /* TODO: Your Code Here */
     return 0;
   }
 
@@ -41,44 +41,44 @@ public class Heap<E> implements PriorityQueue<E> {
   }
 
   /**
-   * TO DO:
    * Returns the top of this heap. This will be the highest priority key. 
    * @throws NoSuchElementException if the heap is empty.
    */
   public E peek() {
+    /* TODO: Your Code Here */
     return 0;
   }
 
   /**
-   * TO DO:
    * Inserts the given key into this heap.
    */
   public void insert(E key) {
+    /* TODO: Your Code Here */
     return;
   }
 
   /**
-   * TO DO:
    * Removes and returns the highest priority key in this heap.
    * @throws NoSuchElementException if the heap is empty.
    */
   public E delete() {
+    /* TODO: Your Code Here */
     return 0;
   }
 
   /**
-   * TO DO:
    * Exchanges the elements in the heap at the given indices in keys.
    */
   public void swap(int i, int j) {
+    /* TODO: Your Code Here */
     return;
   }
   
   /**
-   * TO DO:
    * Returns the number of keys in this heap.
    */
   public int size() {
+    /* TODO: Your Code Here */
     return 0;
   }
 
@@ -90,26 +90,26 @@ public class Heap<E> implements PriorityQueue<E> {
   }
   
   /**
-   * TO DO:
    * Returns the index of the left child of p.
    */
   public static int getLeft(int p) {
+    /* TODO: Your Code Here */
     return 0;
   }
 
   /**
-   * TO DO:
    * Returns the index of the right child of p.
    */
   public static int getRight(int p) {
+    /* TODO: Your Code Here */
     return 0;
   }
 
   /**
-   *
    * Returns the index of the parent of p.
    */
   public static int getParent(int p) {
+    /* TODO: Your Code Here */
     return 0;
   }
 }
