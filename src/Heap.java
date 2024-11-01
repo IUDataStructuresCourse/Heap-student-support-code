@@ -52,7 +52,7 @@ public class Heap<E> implements PriorityQueue<E> {
   /**
    * Inserts the given key into this heap.
    */
-  public void insert(E key) {
+  public void push(E key) {
     /* TODO: Your Code Here */
     return;
   }
