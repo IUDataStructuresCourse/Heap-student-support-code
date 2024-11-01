@@ -12,13 +12,13 @@ public interface PriorityQueue<E> {
   /** 
    * Inserts the given key into this priority queue. 
    */
-  void insert(E key);
+  void push(E key);
   
   /** 
    * Retrieves and removes the highest priority key in this queue, or 
    * returns null if this queue is empty.
    */
-  E delete();
+  E pop();
   
   /**
    * Retrieves, but does not remove, the head of this queue.
