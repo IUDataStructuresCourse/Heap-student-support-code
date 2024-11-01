@@ -61,7 +61,7 @@ public class Heap<E> implements PriorityQueue<E> {
    * Removes and returns the highest priority key in this heap.
    * @throws NoSuchElementException if the heap is empty.
    */
-  public E delete() {
+  public E pop() {
     /* TODO: Your Code Here */
     return 0;
   }
