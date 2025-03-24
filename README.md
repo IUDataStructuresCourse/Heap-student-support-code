@@ -1,1 +1,1 @@
-# Huffman Coding Student Support Code
+# Heap Student Support Code
