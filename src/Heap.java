@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 /**
  *
- * The Heap class implements a min heap.
+ * This Heap class should implement a min heap. (Not a max heap!)
  *
  * The keys in the heap are stored in an array.
  * 
@@ -13,8 +13,10 @@ import java.util.Comparator;
  * 
  * The constructor takes an argument that specifies how objects in the 
  * heap are to be compared. This argument is a java.util.Comparator, 
- * which has a compare() method that has the same signature and behavior 
- * as the compareTo() method found in the Comparable interface. 
+ * which has a compare() method. The compare() method should 
+ *    return 0 if the two arguments are equal, 
+ *    return -1 if the first argument is less than the second, and
+ *    return 1 if the first argument is greater than the second argument.
  * 
  * Here are some examples of a Comparator<String>:
  *    (s, t) -> s.compareTo(t);
@@ -43,7 +45,7 @@ public class Heap<E> implements PriorityQueue<E> {
   }
 
   /**
-   * Returns the top of this heap. This will be the lowest priority key. 
+   * Returns the top of this heap. This will be the smallest key. 
    * @throws NoSuchElementException if the heap is empty.
    */
   public E peek() {
@@ -60,7 +62,7 @@ public class Heap<E> implements PriorityQueue<E> {
   }
 
   /**
-   * Removes and returns the lowest priority key in this heap.
+   * Removes and returns the smallest key in this heap.
    * @throws NoSuchElementException if the heap is empty.
    */
   public E pop() {
