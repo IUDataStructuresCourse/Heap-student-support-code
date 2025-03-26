@@ -5,7 +5,9 @@ import java.util.Comparator;
 
 /**
  *
- * The keys in the heap must be stored in an array.
+ * The Heap class implements a min heap.
+ *
+ * The keys in the heap are stored in an array.
  * 
  * There may be duplicate keys in the heap.
  * 
@@ -41,7 +43,7 @@ public class Heap<E> implements PriorityQueue<E> {
   }
 
   /**
-   * Returns the top of this heap. This will be the highest priority key. 
+   * Returns the top of this heap. This will be the lowest priority key. 
    * @throws NoSuchElementException if the heap is empty.
    */
   public E peek() {
@@ -58,7 +60,7 @@ public class Heap<E> implements PriorityQueue<E> {
   }
 
   /**
-   * Removes and returns the highest priority key in this heap.
+   * Removes and returns the lowest priority key in this heap.
    * @throws NoSuchElementException if the heap is empty.
    */
   public E pop() {
