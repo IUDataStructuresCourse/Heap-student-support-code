@@ -34,7 +34,6 @@ public class Heap<E> implements PriorityQueue<E> {
    */
   public Heap(Comparator<E> comparator) {
     /* TODO: Your Code Here */
-    return 0;
   }
 
   /**
@@ -50,7 +49,7 @@ public class Heap<E> implements PriorityQueue<E> {
    */
   public E peek() {
     /* TODO: Your Code Here */
-    return 0;
+    return null;
   }
 
   /**
@@ -67,7 +66,7 @@ public class Heap<E> implements PriorityQueue<E> {
    */
   public E pop() {
     /* TODO: Your Code Here */
-    return 0;
+    return null;
   }
 
   /**
